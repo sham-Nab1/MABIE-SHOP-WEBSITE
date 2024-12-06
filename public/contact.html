@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Header Section -->
+      <div class="container">
+        <nav>
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">&#9776;</label>
+          <label class="logo">MABIE</label>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="orders.html">Orders</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Contacts Section -->
+    <div class="container">
+      <div class="background-image">
+        <div class="contact-content">
+          <div class="social-media-container">
+            <div class="social-media-page">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                class="icon facebook"
+              >
+                <i class="fab fa-facebook-f"></i>
+                <p>Facebook</p>
+              </a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                class="icon instagram"
+              >
+                <i class="fab fa-instagram"></i>
+                <p>Instagram</p>
+              </a>
+              <a
+                href="https://www.tiktok.com"
+                target="_blank"
+                class="icon tiktok"
+              >
+                <i class="fab fa-tiktok"></i>
+                <p>Tiktok</p>
+              </a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                class="icon twitter"
+              >
+                <i class="fab fa-twitter"></i>
+                <p>Twitter</p>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Message Box -->
+          <div class="contact-message">
+            <h2>Chat With Us</h2>
+            <p>
+              Thank you for visiting our shop!<br />
+              If you have any questions or need<br />
+              assistance, please feel free to<br />
+              reach out by filling out the form<br />
+              below. We look forward to<br />
+              connecting with you!
+            </p>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-container">
+            <div class="contact-form-title">
+              <h2>Contact Us</h2>
+            </div>
+
+            <form
+              action="mailto:your-email@example.com"
+              method="post"
+              enctype="text/plain"
+              id="contact-form"
+            >
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Enter your number"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Enter your message"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+
+              <div class="form-group">
+                <button type="submit" class="submit-button">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Contact Info Section -->
+        <div class="contact-info-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+6391 096 4321</span>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-telegram-plane"></i>
+              <span>+6392 185 3274</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>mabieshop@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span
+                >Sitio Bayong, Semirara,<br />
+                Caluya, Antique, Philippines</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
